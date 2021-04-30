@@ -1,0 +1,16 @@
+Time complexity of str.replace(old string, new string, instance)
+
+Time complexity:
+
+Time complexity is the amount of time taken by an algorithm to run, as a function of the length of the input. 
+It measures the time taken to execute each statement of code in an algorithm.
+
+When str1.replace() function is called, a copy of str1 is created. 
+However during the copying process, new string will be added in places of old string. 
+The function will finally return the modified copy. The time complexity will the length of the modified string,
+i.e, O(length of string returned by replace function)  
+
+Space complexity
+
+Space complexity is determined as a function of input. 
+It is the measure of the memory space required to run the algorithm for the given input.
